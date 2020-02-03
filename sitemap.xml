@@ -7,16 +7,61 @@
 	</url>
 	<url>
 		<loc>http://azer.io/pixisoccer/</loc>
-		<changefreq>monthly</changefreq>
-		<priority>0.8</priority>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
 	</url>
 	<url>
 		<loc>http://azer.io/dot-link/</loc>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>http://azer.io/emoticon-cave/</loc>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>http://azer.io/color-palette/</loc>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>http://azer.io/emoticon-cave/</loc>
+		<loc>http://azer.io/average-color/</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>http://azer.io/rgb-to-hex/</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>http://azer.io/hex-to-rgb/</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>http://azer.io/url-encode-decode/</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>http://azer.io/grayscale-image/</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>http://azer.io/rgb-channels-image/</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>http://azer.io/image-histogram/</loc>
+		<changefreq>monthly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>http://azer.io/rgb-hex-chart/</loc>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
