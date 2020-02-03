@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+	<head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	    <meta name="keywords" content="azer.io, url enncode, url decode">
+	    <meta name="description" content="Url Encode / Decode Online">
+	    <link rel="canonical" href="https://azer.io/url-encode-decode/" />
+	    <link rel="alternate" href="https://azer.io/url-encode-decode/" hreflang="x-default">
+	    <meta name="author" content="Azer.io">
+	    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet" type="text/css">
+    	<link href="//azer.io/assets/tools-style.css" rel="stylesheet" type="text/css">
+	    <title>Url Encode / Decode | azer.io</title>
+
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="Url Encode / Decode" />
+		<meta property="og:description" content="Url Encode / Decode online" />
+		<meta property="og:url" content="https://azer.io/url-encode-decode/" />
+		<meta property="og:image" content="https://azer.io/assets/imgs/general-color-tool.jpg" />
+		
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:description" content="Url Encode / Decode online" />
+		<meta name="twitter:title" content="Url Encode / Decode" />
+		<meta name="twitter:image" content="https://azer.io/assets/imgs/general-color-tool.jpg" />
+
+		<link rel="shortcut icon" href="https://azer.io/favicon.ico" type="image/x-icon">
+    	<link rel="icon" href="https://azer.io/favicon.ico" type="image/x-icon">
+
+	    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+	    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-48389619-2"></script>
+	    <script>
+	      window.dataLayer = window.dataLayer || [];
+	      function gtag(){dataLayer.push(arguments)};
+	      gtag('js', new Date());
+	      gtag('config', 'UA-48389619-2');
+	    </script>
+	</head>
+	<body>
+		<div style="width: 100%; text-align: right;"><a href="//azer.io" style="text-decoration: none;">← azer.io</a></div>
+		<h1>URL Encode and Decode Tool</h1>
+		
+		<div class="target-form">
+			<div class="col-form">
+				<textarea class="form-control" name="string" id="string" rows="15" placeholder="Enter the text that you wish to encode or decode."></textarea>
+				
+				<button class="btn btn-primary" name="action" id="btn_encode_uri" value="Encode">Encode url</button>
+				<button class="btn btn-primary" name="action" id="btn_decode_uri" value="Decode">Decode url</button>
+				
+			</div>
+			<div class="col-form">
+				<textarea class="form-control" name="string2" id="string2" rows="15" placeholder="Your results will appear here." disabled=""></textarea>
+			</div>
+		</div>
+
+
+		<p>
+			Use the online tool from above to either encode or decode a string of text. For worldwide interoperability, URIs have to be encoded uniformly. To map the wide range of characters used worldwide into the 60 or so allowed characters in a URI, a two-step process is used:
+		</p>
+		<ul style="position: relative; left: 10px;">
+			<li style="position: relative; left: 30px;">Convert the character string into a sequence of bytes using the UTF-8 encoding</li>
+			<li style="position: relative; left: 30px;">Convert each byte that is not an ASCII letter or digit to %HH, where HH is the hexadecimal value of the byte</li>
+		</ul>
+		<p><strong>URL encoding</strong> stands for encoding certain characters in a URL by replacing them with one or more  character triplets that consist of the percent character "<code>%</code>" followed by two hexadecimal digits. The two hexadecimal digits of the triplet(s) represent the numeric value of the replaced character.</p>
+		<p>The term <strong>URL encoding</strong> is a bit inexact because the encoding procedure is not limited to URLs (<a href="http://en.wikipedia.org/wiki/Url">Uniform Resource Locators</a>), but can also be applied to any other URIs (<a href="http://en.wikipedia.org/wiki/Uniform_Resource_Identifier">Uniform Resource Identifiers</a>) such as URNs (<a href="http://en.wikipedia.org/wiki/Uniform_Resource_Name">Uniform Resource Names</a>). Therefore, the term percent-encoding should be preferred.</p>
+		<p><a href="http://www.gbiv.com/protocols/uri/rfc/rfc3986.html">RFC 3986</a> does not define according to which character encoding table non-<a href="http://en.wikipedia.org/wiki/ASCII">ASCII</a> characters (e.g. the umlauts ä, ö, ü) should be encoded. As <strong>URL encoding</strong> involves a pair of hexadecimal digits and as a pair of hexadecimal digits is equivalent to 8 bits, it would theoretically be possible to use one of the 8-bit code pages for non-ASCII characters (e.g. ISO-8859-1 for umlauts).</p>
+		<p>On the other hand, as many languages have their own 8-bit code page, handling all these different 8-bit code pages would be a quite cumbersome thing to do. Some languages do not even fit into an 8-bit code page (e.g. Chinese). Therefore, <a href="http://tools.ietf.org/html/rfc3629">RFC 3629</a> proposes to use the <a href="http://en.wikipedia.org/wiki/UTF-8">UTF-8</a> character encoding table for non-ASCII characters. The following tool takes this into account and offers to choose between the ASCII character encoding table and the UTF-8 character encoding table. If you opt for the ASCII character encoding table, a warning message will pop up if the <strong>URL encoded/decoded</strong> text contains non-ASCII characters.</p>
+		<footer id="footer">
+			<div>
+				<p>Share the Url Encode / Decode</p>
+				<ul style="list-style: none; margin:0; padding: 0; display: inline-flex; justify-content: center;">
+					<li style="margin-right:5px;">
+						<div class="fb-share-button" data-href="https://azer.io/url-encode-decode/" data-layout="button" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fazer.io%2Furl-encode-decode%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+					</li>
+					<li>
+						<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+					</li>
+				</ul>
+			</div>
+			<br>
+			<div class="footer_wrapper">
+				<div class="footer_column">
+					<a href="//azer.io" class="footer_column__link">© azer.io</a>
+					<a href="//azer.io/pixisoccer/" class="footer_column__link">Pixi Soccer</a>
+					<a href="//azer.io/dot-link/" class="footer_column__link">Dot Link - Dots and Boxes</a>
+				</div>
+				<div class="footer_column">
+					<a href="//azer.io/average-color/" class="footer_column__link">Get Average Color</a>
+					<a href="//azer.io/color-palette/" class="footer_column__link">Color Palette Generator</a>
+					<a href="//azer.io/rgb-to-hex/" class="footer_column__link">RGB to Hex</a>
+					<a href="//azer.io/hex-to-rgb/" class="footer_column__link">Hex to RGB</a>
+				</div>
+				<div class="footer_column">
+					<a href="//azer.io/grayscale-image/" class="footer_column__link">Grayscale Image</a>
+					<a href="//azer.io/rgb-channels-image/" class="footer_column__link">RGB Channels</a>
+					<a href="//azer.io/image-histogram/" class="footer_column__link">Image Histogram</a>
+				</div>
+			</div>
+			<p>2020 <a href="//azer.io">© Azer Bulbul</a>. <a href="//azer.io/terms/">Terms</a> & <a href="//azer.io/privacy-policy/">Privacy Policy</a></p>
+		</footer>
+		
+		<script type="text/javascript">
+			(function(){
+				var btn_encode_uri = document.getElementById('btn_encode_uri'),
+					btn_decode_uri = document.getElementById('btn_decode_uri'),
+					string = document.getElementById('string'),
+					string2 = document.getElementById('string2');
+
+				if(btn_encode_uri !== null && btn_decode_uri !== null){
+					btn_encode_uri.onclick = function(){
+						if(string !== null && string.value.length > 0){
+							console.log(encodeURIComponent(string.value));
+							string2.value = encodeURIComponent(string.value);
+						}
+					};
+
+					btn_decode_uri.onclick = function(){
+						if(string !== null && string.value.length > 0){
+							string2.value = decodeURIComponent(string.value);
+						}
+					};
+				}
+			})();
+		</script>
+
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=628198877249238&autoLogAppEvents=1';
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+	</body>
+</html>
