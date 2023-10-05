@@ -6,21 +6,6 @@
 		<priority>1.0</priority>
 	</url>
 	<url>
-		<loc>http://azer.io/pixisoccer/</loc>
-		<changefreq>daily</changefreq>
-		<priority>1.0</priority>
-	</url>
-	<url>
-		<loc>http://azer.io/dot-link/</loc>
-		<changefreq>daily</changefreq>
-		<priority>1.0</priority>
-	</url>
-	<url>
-		<loc>http://azer.io/emoticon-cave/</loc>
-		<changefreq>daily</changefreq>
-		<priority>1.0</priority>
-	</url>
-	<url>
 		<loc>http://azer.io/color-palette/</loc>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
